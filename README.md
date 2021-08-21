@@ -5,7 +5,7 @@ Example usage:
 
 ```bash
 docker run -d -p 8787:8787 -v "`pwd`":/home/rstudio/working \
- -e PASSWORD=p@ssw0rd12345 -e ROOT=TRUE
+ -e PASSWORD=p@ssw0rd12345 -e ROOT=TRUE \
  cogdatasci/rstudio-m1
  ```
  
